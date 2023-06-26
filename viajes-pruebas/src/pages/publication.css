@@ -1,0 +1,211 @@
+.selectedTrip-container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(195, 208, 221, 0.9);
+  text-align: center;
+  padding: 20px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.comentaries-gral {
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-top: 1px solid rgb(211, 211, 211, 0.5);
+}
+
+.comentaries-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+.comentaries-container img {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.user-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  border: 1px solid rgb(211, 211, 211, 0.5);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(181, 183, 182, 0.3);
+}
+
+.font-comentaries {
+  font-size: 14px;
+}
+
+.inputComent-container {
+  display: flex;
+  width: 95%;
+  justify-content: end;
+  position: fixed;
+  bottom: 65px;
+  padding: 0px 10px;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.inputComent-container input {
+  width: 100%;
+  height: 30px;
+  padding: 5px 10px;
+  background-color: rgba(222, 222, 234, 0.9);
+}
+
+.inputComent-container button {
+  padding: 0px 2px;
+  background-color: rgb(58, 138, 212);
+  border: none;
+  border-radius: 3px;
+}
+
+.comments-icono-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.scroll {
+  margin-bottom: 100px;
+  width: 100%;
+  height: 50px;
+}
+
+.p-registro {
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  color: red;
+}
+
+.publication-likes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.publication-likes {
+  background-image: url("../assets/like.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 22, 22, 0.5);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 40%;
+  background-color: rgb(52, 160, 164, 0.9);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-text {
+  padding: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.modal button {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid rgb(211, 211, 211, 0.7);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+.btn-delete {
+  color: red;
+  font-weight: bold;
+}
+
+.btn-cancel {
+  color: white;
+}
+
+.img-btn-container {
+  position: relative;
+  max-width: 700px;
+}
+
+.btn-deleteTrip {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 2%;
+  right: 6%;
+  background-image: url("../assets/delete-icon.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+
+.back {
+  background-color: rgb(56, 129, 232);
+  color: white;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.back:hover {
+  cursor: pointer;
+}
+
+.trip-description {
+  margin-bottom: 10px;
+  max-width: 550px;
+}
+
+.view-in-map {
+  width: 50px;
+  height: 30px;
+  background-image: url("../assets/maps-icon.jpeg");
+  background-size: cover;
+}
+
+.view-in-map:hover {
+  cursor: pointer;
+}
+
+.publication-actions-container {
+  display: flex;
+  width: 100%;
+  max-width: 630px;
+  min-width: n;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}

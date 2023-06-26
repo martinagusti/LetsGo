@@ -1,0 +1,94 @@
+.register-form{
+    width: 100vw;
+    height: 90vh;
+    min-height: 700px;
+    background-image: url(../assets/playa.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+
+.container-form{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+   
+
+}
+
+span{
+    color: red;
+    
+}
+
+.caja{
+    width: 60%;
+    min-width: 280px;
+    max-width: 500px;
+    background-color: rgba(89, 89, 97, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px 10px;
+}
+
+.register-avatar{
+        width: 110px;
+        height: 110px;
+        background-image: url(../assets/camara.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+
+        
+    }
+
+    #btn-register{
+        margin-top: 20px;
+        width: 80%;
+        border: none;
+        background-color: rgb(58, 138, 212);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .avatar-container{
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -50px;
+    
+
+    }
+
+    .avatar-container img{
+     border-radius: 50%;   
+    }
+
+    .caja input, .caja textarea{
+        width: 90%;
+    }
+
+  
+
+    
+
+    
